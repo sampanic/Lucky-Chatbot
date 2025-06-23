@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     container.classList.add("hidden");
 
     const faq = {
-    // ================== ENGLISH ==================
-    "Hello|Hi|Hey": `Hey there! I'm the Lucky Panda Coin's personal assistant! 🐼✈️
+        // ================== ENGLISH ==================
+        "Hello|Hi|Hey": `Hey there! I'm the Lucky Panda Coin's personal assistant! 🐼✈️
 While our fuzzy friends are off exploring the world, I'm here to help you with:
 
 🎁 Daily giveaways – 88,888 coins a day (that's a lot of bamboo!)
@@ -20,10 +20,10 @@ While our fuzzy friends are off exploring the world, I'm here to help you with:
 📈 Trading & more
 
 I speak English, Español, 中文, and 日本語!
-Just ask away — I’m quicker than a panda spotting snacks! 🤪`,
+Just ask away — I'm quicker than a panda spotting snacks! 🤪`,
 
-    // ================== SPANISH GREETINGS ==================
-    "Hola|Buenas|Oye": `¡Hola! Soy el asistente personal de Lucky Panda Coin! 🐼✈️
+        // ================== SPANISH GREETINGS ==================
+        "Hola|Buenas|Oye": `¡Hola! Soy el asistente personal de Lucky Panda Coin! 🐼✈️
 Mientras nuestros amigos peludos exploran el mundo, estoy aquí para ayudarte con:
 
 🎁 Sorteos diarios – 88,888 monedas al día (¡eso es mucho bambú!)
@@ -34,8 +34,8 @@ Mientras nuestros amigos peludos exploran el mundo, estoy aquí para ayudarte co
 ¡Hablo Español, English, 中文 y 日本語!
 Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
 
-    // ================== CHINESE GREETINGS ==================
-    "你好|嗨|嘿": `嘿！我是幸运熊猫币的个人助手！🐼✈️
+        // ================== CHINESE GREETINGS ==================
+        "你好|嗨|嘿": `嘿！我是幸运熊猫币的个人助手！🐼✈️
 在我们毛茸茸的朋友探索世界的同时，我在这里帮助你：
 
 🎁 每日赠币 – 每天 88,888 枚（那可是很多竹子！）
@@ -46,8 +46,8 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
 我会说 中文, English, Español 和 日本語！
 尽管问吧——我比熊猫发现零食还快！🤪`,
 
-    // ================== JAPANESE GREETINGS ==================
-    "こんにちは|やあ|こんばんは": `やあ！私はLucky Panda Coinのパーソナルアシスタントです！🐼✈️
+        // ================== JAPANESE GREETINGS ==================
+        "こんにちは|やあ|こんばんは": `やあ！私はLucky Panda Coinのパーソナルアシスタントです！🐼✈️
 パンダたちが世界を探検している間、あなたをサポートします：
 
 🎁 毎日のギブアウェイ – 1日88,888コイン（竹がたっぷり！）
@@ -58,7 +58,9 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
 日本語、English、Español、中文が話せます！
 何でも聞いてください — パンダがおやつを見つけるより速いです！🤪`,
 
-        "Chain": "Solana blockchain.",
+        "X Address": "https://x.com/luckyPandaCoin",
+        "Bluesky Address": "https://bsky.app/profile/luckypandacoin.bsky.social",
+        "Chain": "https://x.com/luckyPandaCoin",
         "Giveaways": "We giveaway 88,888 coins every day for five years!",
         "Launch date": "Lucky Panda Coin is expected to launch in Q3 2025.",
         "Major exchanges": "We plan to start with decentralized exchanges and work towards listing on major exchanges.",
@@ -81,11 +83,9 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
         "Physical assets": "No, Lucky Panda Coin is purely a digital asset with no physical backing.",
         "Payments": "Currently, Lucky Panda Coin is mainly for giveaways and trading, but we are looking into future payment integrations.",
         "Report scam": "Please report scams to our official channels on X & Bluesky and be cautious of impersonators.",
-        "Merchandise store": "We do...https://www.etsy.com/shop/luckypandacoinshop",
+        "Merchandise store": "We do... https://www.etsy.com/shop/luckypandacoinshop",
         "Community": "You can join us on Twitter, Bluesky, and Telegram to stay updated and participate in giveaways.",
         "Twitter address": "The Twitter address for Lucky Panda Coin is https://x.com/luckyPandaCoin.",
-        "X address": "The X address for Lucky Panda Coin is https://x.com/luckyPandaCoin.",
-        "Bluesky address": "The Bluesky address for Lucky Panda Coin is https://bsky.app/profile/luckypandacoin.bsky.social.",
         "What is this": "Introducing Lucky Panda Coin, the ultimate party, giveaway, and contest cryptocurrency that's taking the world by storm! At the heart of our community is the thrilling 'Where in the World is the Lucky Panda?'",
         "What is Lucky Panda Coin": "The Lucky Panda Coin is a meme-based cryptocurrency with a fun and rewarding twist.",
         "Symbol": "The symbol for The Lucky Panda Coin is $LUCKY8.",
@@ -128,6 +128,46 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
         "Developer tokens": "The total owned by the developers is 6.5%, with 5.5% for the giveaways and marketing.",
         "Circulation": "The total circulation of The Lucky Panda Coin is 2,930,000,000 coins.",
         "Transaction fees": "0.8% fee for administrative and marketing expenses",
+        "Token burn": "We burn 0.2% of every transaction making the coin deflationary!",
+        "Blockchain used": "Lucky Panda Coin is built on the Solana blockchain.",
+        "Contract": "The contract address will be announced at launch.",
+        "Taxes": "There's a 0.8% fee for administrative and marketing expenses.",
+        "Utility": "Currently used for giveaways and trading, with future payment integrations planned.",
+        "Staking": "Staking options are not currently available.",
+        "NFT plans": "Yes, we're exploring an exclusive NFT collection for our community.",
+        "Merch use": "Visit our merchandise store: https://www.etsy.com/shop/luckypandacoinshop",
+        "Partnerships": "We're working on strategic partnerships - stay tuned!",
+        "Giveaway details": "We giveaway 88,888 coins every day for five years!",
+        "Team anonymity": "The team remains semi-anonymous but engages regularly with the community.",
+        "Team members": "Our focus is on building rather than personal fame.",
+        "Celebrity backing": "Currently we don't have any celebrity endorsements.",
+        "CEX listings": "We plan to start with DEXs and work towards major exchange listings.",
+        "First DEX": "Will be available on Solana DEXs like Raydium and Orca.",
+        "Listing roadmap": "Exchange listings are part of our development roadmap.",
+        "How to buy": "Buy on Solana-based DEXs at launch.",
+        "Liquidity locks": "Liquidity is ensured through pools and strategic partnerships.",
+        "Next milestones": "Focusing on community building and exchange listings.",
+        "Cross-chain": "Cross-chain compatibility is in our future plans.",
+        "Mobile app": "We recommend using Phantom wallet or other Solana-compatible wallets.",
+        "Hype strategy": "Through daily giveaways and interactive community events.",
+        "Charity": "We're planning to partner with charities for special events.",
+        "Panda theme": "Pandas represent luck and our fun, rewarding community spirit!",
+        "Find Panda game": "Our 'Where in the World is the Lucky Panda?' is coming soon!",
+        "Meme contests": "Community engagement is key - stay tuned for announcements!",
+        "Community stories": "Our community surprises us daily with their creativity!",
+        "Pizza topping": "Extra bamboo, of course - the panda's favorite! 🐼🎋",
+        "What is a meme coin?": "A meme coin is a cryptocurrency inspired by internet memes, jokes, or cultural trends. It's often fun and community-driven!",
+        "How do meme coins work?": "Meme coins work like other cryptocurrencies—they're digital tokens on a blockchain that people can buy, sell, or use.",
+        "Are meme coins real money?": "Meme coins aren't traditional money, but they can have real value and be traded for other cryptocurrencies or goods.",
+        "What makes meme coins valuable?": "Value comes from community support, scarcity, popularity, and sometimes utility or hype.",
+        "Why do people buy meme coins?": "People buy meme coins for fun, to support a project, or in hopes the value goes up with popularity.",
+        "Are meme coins safe?": "Like all crypto, meme coins carry risk. Always use trusted wallets and research the project before investing.",
+        "What's the point of a meme coin?": "Meme coins can build community, reward participation, spread joy, or even support real-world causes—plus, they're fun!",
+        "How is this meme coin different from others?": "Lucky Panda Coin gives away 88,888 coins daily through a fun picture-spotting contest and supports global community fun.",
+        "How do meme coins get popular?": "They get popular through memes, social media, giveaways, and strong community vibes!",
+        "Is this meme coin just a joke?": "It started with fun, but Lucky Panda Coin has real daily giveaways, a smart contract, and a growing community.",
+        "How do you give the coins away?": "We do a random daily drawing if you correctly find the Lucky Panda in the day's image!",
+        "How do you do the giveaways?": "We do a random daily drawing, just correctly find the Lucky Panda in the day's image and share the post!",
 
         // ================== SPANISH ==================
         "Cadena": "Blockchain de Solana.",
@@ -200,6 +240,42 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
         "Tokens desarrolladores": "Los desarrolladores poseen un 6,5%, de los cuales un 5,5% es para marketing y sorteos.",
         "Circulación español": "Hay 2.930.000.000 coins en circulación.",
         "Tarifas transacción": "Tarifa del 0.8% para gastos administrativos y marketing.",
+        "Quema tokens": "¡Quemamos un 0,2% de cada transacción haciéndola deflacionaria!",
+        "Utilidad español": "Actualmente para sorteos y trading, con futuras integraciones de pago.",
+        "Staking español": "Todavía no ofrecemos staking.",
+        "Planes NFT": "Sí, estamos explorando una colección NFT exclusiva.",
+        "Usar merch": "Visita nuestra tienda: https://www.etsy.com/shop/luckypandacoinshop",
+        "Alianzas": "Estamos trabajando en alianzas estratégicas - ¡atentos!",
+        "Detalles sorteo": "¡Regalamos 88,888 monedas todos los días durante cinco años!",
+        "Equipo anónimo": "El equipo permanece semi-anónimo pero interactúa regularmente.",
+        "Miembros equipo": "Nos enfocamos en construir más que en fama personal.",
+        "Celebridades español": "Actualmente no tenemos endorsements por celebridades.",
+        "Listados CEX": "Planeamos comenzar con DEXs y avanzar hacia exchanges principales.",
+        "Primer DEX": "Estará disponible en DEXs de Solana como Raydium y Orca.",
+        "Cómo comprar": "Compra en DEXs basados en Solana al lanzamiento.",
+        "Bloqueos liquidez": "La liquidez se asegura mediante pools y alianzas.",
+        "Próximos hitos": "Enfocados en construcción comunitaria y listados de exchanges.",
+        "Cross-chain español": "La compatibilidad cross-chain está en nuestros planes.",
+        "App móvil": "Recomendamos Phantom u otras billeteras compatibles con Solana.",
+        "Estrategia hype": "A través de sorteos diarios y eventos comunitarios interactivos.",
+        "Caridad español": "Planeamos asociarnos con ONGs para eventos especiales.",
+        "Tema panda": "¡Los pandas representan la suerte y nuestro espíritu comunitario divertido!",
+        "Juego panda": "Próximamente nuestro '¿Dónde está el Panda Afortunado?'",
+        "Concursos memes": "¡La participación comunitaria es clave - atentos a anuncios!",
+        "Historias comunidad": "¡Nuestra comunidad nos sorprende diariamente con su creatividad!",
+        "Topping pizza": "¡Bambú extra, por supuesto - el favorito de los pandas! 🐼🎋",
+        "¿Qué es una moneda meme?": "Una moneda meme es una criptomoneda inspirada en memes de Internet, bromas o tendencias culturales. ¡Suele ser divertida y dirigida por la comunidad!",
+        "¿Cómo funcionan las monedas meme?": "Funcionan como otras criptomonedas: son tokens digitales en una blockchain que puedes comprar, vender o usar.",
+        "¿Las monedas meme son dinero real?": "No son dinero tradicional, pero pueden tener valor real y usarse para intercambios.",
+        "¿Qué hace valiosas a las monedas meme?": "El valor viene del apoyo de la comunidad, la escasez, la popularidad y a veces su utilidad.",
+        "¿Por qué la gente compra monedas meme?": "Por diversión, para apoyar un proyecto o con la esperanza de que aumenten su valor.",
+        "¿Son seguras las monedas meme?": "Como todas las criptos, tienen riesgos. Usa billeteras confiables e infórmate bien antes de invertir.",
+        "¿Cuál es el propósito de una moneda meme?": "Pueden reunir comunidades, premiar la participación y alegrar el día. ¡Y son divertidas!",
+        "¿En qué se diferencia esta moneda de otras?": "Lucky Panda Coin regala 88,888 monedas cada día en un divertido concurso visual y fomenta la comunidad global.",
+        "¿Cómo se hacen populares las monedas meme?": "Gracias a memes, redes sociales, sorteos y una comunidad fuerte.",
+        "¿Esta moneda meme es solo una broma?": "Empezó con humor, pero Lucky Panda Coin tiene sorteos reales, contrato inteligente y una comunidad activa.",
+        "¿Cómo regalan las monedas?": "Hacemos un sorteo diario si encuentras correctamente al Lucky Panda en la imagen del día.",
+        "¿Cómo hacen los sorteos?": "Hacemos un sorteo diario. ¡Solo encuentra al Lucky Panda en la imagen del día y comparte la publicación!",
 
         // ================== CHINESE ==================
         "链": "Solana 区块链。",
@@ -272,6 +348,44 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
         "开发者代币": "开发者持有 6.5%，其中 5.5% 用于市场营销和赠品。",
         "流通量": "共有 29.3 亿枚代币在流通中。",
         "交易手续费": "收取 0.8% 用于管理及营销费用。",
+        "代币销毁": "每笔交易销毁 0.2%，实现通缩机制！",
+        "实用性": "目前用于赠品和交易，正在规划未来支付集成。",
+        "质押中文": "目前暂无质押选项。",
+        "NFT 计划": "正在探索为社区推出专属 NFT 系列。",
+        "使用周边": "访问我们的周边商店：https://www.etsy.com/shop/luckypandacoinshop",
+        "合作伙伴": "我们正在进行战略合作 - 敬请期待！",
+        "赠品详情": "每天赠送 88,888 枚硬币，持续五年！",
+        "加入社区中文": "加入 Telegram、Twitter 和 Bluesky 获取最新资讯！",
+        "团队匿名": "团队保持半匿名状态，但会定期与社区互动。",
+        "团队成员": "我们更关注建设而非个人名誉。",
+        "名人支持": "目前没有名人背书。",
+        "中心化交易所": "计划从去中心化交易所开始，逐步在主要交易所上市。",
+        "首批 DEX": "将在基于 Solana 的 DEX（如 Raydium 和 Orca）上线。",
+        "上线路线图": "交易所上市是我们发展路线图的一部分。",
+        "如何购买中文": "发布时可在基于 Solana 的 DEX 购买。",
+        "流动性锁定": "通过流动性池和战略合作伙伴确保流动性。",
+        "下一阶段": "专注于社区建设和交易所上线。",
+        "跨链中文": "未来计划支持跨链。",
+        "移动应用": "建议使用 Phantom 或其他兼容 Solana 的钱包。",
+        "热度策略": "通过每日赠品和互动社区活动保持热度。",
+        "慈善中文": "计划与公益组织合作举办特别活动。",
+        "熊猫主题": "熊猫代表幸运和我们有趣、有回报的社区精神！",
+        "找熊猫游戏": "我们的'荣幸熊猫在哪里？'即将推出！",
+        "表情包大赛": "社区参与是关键 - 请关注公告！",
+        "社区故事": "我们的社区每天都在用创造力给我们惊喜！",
+        "披萨配料": "当然是额外竹子 - 熊猫的最爱！🐼🎋",
+        "什么是meme币？": "Meme币是一种受互联网梗图、笑话或文化潮流启发的加密货币，通常以趣味和社区驱动为特点！",
+        "meme币是如何运作的？": "它们和其他加密货币一样，在区块链上可以买卖或使用的数字代币。",
+        "meme币是真正的钱吗？": "不是传统意义上的货币，但可以具有实际价值并进行交易。",
+        "meme币的价值来自哪里？": "来自社区支持、稀缺性、流行度以及实用性或炒作。",
+        "人们为什么购买meme币？": "出于好玩、支持项目或希望价值上涨的目的。",
+        "meme币安全吗？": "加密货币都有风险。使用可信的钱包并做好研究。",
+        "meme币的意义是什么？": "它们可以聚集社区、奖励参与、传播快乐，甚至支持公益！",
+        "这个meme币和其他有什么不同？": "幸运熊猫币每天通过图像寻找游戏送出88,888枚币，支持全球社区互动。",
+        "meme币如何变得流行？": "通过梗图、社交媒体、赠币活动和强大的社区支持。",
+        "这个币只是个玩笑吗？": "最初是为了乐趣，但现在Lucky Panda Coin有真实的日常赠币、智能合约和活跃社区。",
+        "你们怎么发币的？": "每天通过图像找熊猫的小游戏进行随机抽奖发放！",
+        "你们是怎么做赠币活动的？": "每天举办随机抽奖。找到当天图片中的Lucky Panda并分享即可参与！",
 
         // ================== JAPANESE ==================
         "チェーン": "Solana ブロックチェーン。",
@@ -343,7 +457,44 @@ Solo pregunta — ¡soy más rápido que un panda viendo snacks! 🤪`,
         "ミームコイン": "インターネットのミームや文化トレンドから派生した暗号通貨。",
         "開発者所有": "開発者は合計 6.5%、その内 5.5% がマーケ・ギブアウェイ用です。",
         "流通トークン": "29.3 億トークンが流通中です。",
-        "取引手数料": "管理費・マーケティング費用として 0.8% がかかります。"
+        "取引手数料": "管理費・マーケティング費用として 0.8% がかかります。",
+        "トークン焼却": "取引の0.2%をバーンし、デフレコインにしています！",
+        "ユーティリティ": "現在はギブアウェイと取引に使用、将来の支払い統合を計画中。",
+        "ステーキング日本語": "現在は未提供です。",
+        "NFT計画": "コミュニティ向けのNFTコレクションを検討中です。",
+        "グッズ利用": "グッズストアへ: https://www.etsy.com/shop/luckypandacoinshop",
+        "パートナーシップ": "戦略的提携を進めています - お楽しみに！",
+        "ギブアウェイ詳細": "5年間、毎日88,888コインを配布します！",
+        "コミュニティ参加日本語": "Telegram、Twitter、Blueskyで最新情報をゲット！",
+        "チーム匿名性": "チームは半匿名ですが、頻繁に交流しています。",
+        "チームメンバー": "個人の名声よりも構築に重点を置いています。",
+        "有名人支援": "現在、有名人の推薦はありません。",
+        "CEX上場": "まずDEXから開始し、大手取引所上場を目指します。",
+        "最初のDEX": "RaydiumやOrcaなどのSolanaベースのDEXで利用可能。",
+        "購入方法": "発売時にSolanaベースのDEXで購入可能。",
+        "流動性ロック": "流動性プールと提携で確保しています。",
+        "次の目標": "コミュニティ構築と取引所上場に注力。",
+        "クロスチェーン日本語": "将来的なクロスチェーン互換性を計画中。",
+        "モバイルアプリ": "PhantomウォレットまたはSolana対応ウォレットを推奨。",
+        "戦略的宣伝": "毎日のギブアウェイとインタラクティブなイベントを通じて。",
+        "慈善活動": "特別イベントのためにNGOと提携予定。",
+        "パンダテーマ": "パンダは幸運と、楽しくやりがいのあるコミュニティ精神を象徴！",
+        "パンダ探しゲーム": "『ラッキーパンダはどこにいる？』近日公開！",
+        "ミームコンテスト": "コミュニティ参加が鍵 - 発表をお待ちください！",
+        "コミュニティストーリー": "創造性で日々驚かせてくれるコミュニティです！",
+        "ピザトッピング": "もちろん竹追加 - パンダのお気に入り！🐼🎋",
+        "ミームコインとは？": "ミームコインは、インターネットのミームやジョーク、文化的トレンドから生まれた暗号通貨です。多くの場合、楽しくてコミュニティ主導です！",
+        "ミームコインはどうやって動くの？": "他の暗号通貨と同じように、ブロックチェーン上で使えるデジタルトークンです。",
+        "ミームコインは本物のお金？": "伝統的なお金ではないけど、本当の価値があり、取引にも使えます。",
+        "ミームコインの価値は何で決まるの？": "コミュニティの支持、希少性、人気、実用性や話題性が価値を生みます。",
+        "なぜミームコインを買うの？": "楽しさのため、プロジェクトを応援したり、価値上昇を期待して買う人もいます。",
+        "ミームコインは安全？": "すべての暗号通貨と同じでリスクがあります。信頼できるウォレットを使って、よく調べましょう。",
+        "ミームコインの目的は？": "コミュニティを育てたり、楽しさや参加報酬を届けたりします。しかも楽しい！",
+        "このコインは他と何が違う？": "Lucky Panda Coinは、毎日画像からパンダを探して88,888枚を配布するユニークな企画があります！",
+        "ミームコインはどうやって人気になるの？": "ミーム、SNS、プレゼント、そして強いコミュニティ力で人気が出ます！",
+        "このコインは冗談なの？": "最初は楽しいジョークでしたが、今では本格的な企画、スマートコントラクト、成長中のコミュニティがあります！",
+        "どうやってコインを配ってるの？": "画像の中のLucky Pandaを見つけると、ランダム抽選で毎日配布します！",
+        "プレゼント企画はどうやるの？": "画像からLucky Pandaを見つけて投稿をシェアすれば、抽選に参加できます！"
     };
 
     function getBotResponse(userInput) {
