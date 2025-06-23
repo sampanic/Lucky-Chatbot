@@ -1,0 +1,110 @@
+/* Ensure body doesn't override transparent layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: transparent;
+}
+
+/* Chat icon (pink capsule) */
+#chatbot-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ff69b4;
+    color: #000;
+    padding: 8px 14px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    user-select: none;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s;
+}
+#chatbot-icon:hover {
+    transform: scale(1.05);
+}
+#chatbot-icon img {
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+}
+
+/* Chat window */
+#chatbot-container {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 360px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    z-index: 2000;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Show class toggles visibility */
+#chatbot-container.show {
+    display: flex;
+}
+
+/* Header */
+#chatbot-header {
+    background: #ff69b4;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#chatbot-header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#close-chatbot {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* Message area */
+#chatbot-log {
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    background: #fff;
+}
+
+/* Input row */
+#chatbot-input-row {
+    display: flex;
+    border-top: 1px solid #eee;
+}
+#chatbot-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+#chatbot-send {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#chatbot-send:hover {
+    background: #e55a9e;
+}
